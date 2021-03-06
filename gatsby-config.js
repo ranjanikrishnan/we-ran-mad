@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "weranmad",
+    title: "weranmad"
   },
   plugins: [
     "gatsby-plugin-styled-components",
@@ -8,8 +8,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "UA-191460202-1",
-      },
+        trackingId: "UA-191460202-1"
+      }
     },
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-mdx",
@@ -19,17 +19,24 @@ module.exports = {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
-        path: "./src/images/",
+        path: "./src/images/"
       },
-      __key: "images",
+      __key: "images"
     },
     {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "pages",
-        path: "./src/pages/",
+        path: "./src/pages/"
       },
-      __key: "pages",
+      __key: "pages"
     },
-  ],
+    {
+      resolve: require.resolve(`./gatsby-wedding-theme/gatsby-theme-wedding`),
+      options: {
+        contentPath: `./gatsby-wedding-theme/gatsby-theme-wedding/data`,
+        basePath: "/event"
+      }
+    }
+  ]
 };
