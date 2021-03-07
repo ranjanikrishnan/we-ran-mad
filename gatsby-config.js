@@ -37,6 +37,13 @@ module.exports = {
         contentPath: `./gatsby-wedding-theme/gatsby-theme-wedding/data`,
         basePath: "/event"
       }
+    },
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: "weranmad-wedding",
+        region: "eu-central-1"
+      }
     }
   ]
 };
