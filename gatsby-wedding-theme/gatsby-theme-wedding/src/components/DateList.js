@@ -58,8 +58,8 @@ const QUERY = graphql`
         }
         description {
           name
-          time
           people
+          time
         }
       }
     }
@@ -70,6 +70,7 @@ function DateList() {
   const {
     event: { events }
   } = useStaticQuery(QUERY);
+
   return (
     <Fragment>
       {events.map(event => (
@@ -82,9 +83,11 @@ function DateList() {
             <ListItem key={event.occasion.name}>
               <span>{event.occasion.name} </span>
               <p>
-                {event.description.name}
-                {event.description.people}
-                {event.description.time}
+                {event.description.map(d => (
+                  <p>
+                    {d.name} {d.people} {d.time}{" "}
+                  </p>
+                ))}
               </p>
               <p>
                 <StyledIcon icon={faMapMarkerAlt} />

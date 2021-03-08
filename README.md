@@ -27,12 +27,18 @@ To run the project in development mode
 gatsby develop
 ```
 
+To deploy any changes to the project in aws
+
+```
+
+```
+
 ## TODO:
 
 - [x] Deployment to S3
 - [x] Make deployment to S3 easy
   - one idea would be to use a gatsby plugin
-- [ ] Buy domain name => pick one of the AWS account
+- [x] Buy domain name => pick one of the AWS account
 - [ ] RSVP feature?
   - Email feature required?
   - Where to store the data?
@@ -43,3 +49,4 @@ gatsby develop
   - combine to one map
 - [ ] description of events (when and where)
 - [ ] change fb links
+- [ ] secure the website - https

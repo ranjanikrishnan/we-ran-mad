@@ -32,11 +32,13 @@
         "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210517T073019Z/20210517T083019Z&details=&location=Vinayaka%20Mandapam%2C%20Kochi&text=Madhav%20%26%20Ranjani%20Wedding&trp=false",
         "outlook": "https://outlook.live.com/owa/?body=&enddt=20191110T133519&location=Casa%20Garden%2C%20Sacremento&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=20191110T133519&subject=Nathaniel%20%26%20Samantha%20Wedding"
       },
-      "description": {
-        "name": "Music Performance by  ",
-        "time": "    - 5:30PM",
-        "people": "White Phoenix Band"
-      }
+      "description": [
+        {
+          "name": "Music Performance by  ",
+          "time": "    - 5:30PM",
+          "people": "White Phoenix Band"
+        }
+      ]
     },
     {
       "title": "17-May-2021",
@@ -52,11 +54,28 @@
         "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210517T073019Z/20210517T083019Z&details=&location=Vinayaka%20Mandapam%2C%20Kochi&text=Madhav%20%26%20Ranjani%20Wedding&trp=false",
         "outlook": "https://outlook.live.com/owa/?body=&enddt=20191110T133519&location=Casa%20Garden%2C%20Sacremento&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=20191110T133519&subject=Nathaniel%20%26%20Samantha%20Wedding"
       },
-      "description": {
-        "name": "Kaasi yathrai",
-        "time": "7:30AM",
-        "people": "blah"
-      }
+      "description": [
+        {
+          "name": "Kaasi yathrai",
+          "time": "  7:30AM",
+          "people": " - "
+        },
+        {
+          "name": "Maalai matral",
+          "time": "  8:00AM",
+          "people": " - "
+        },
+        {
+          "name": "Oonjal",
+          "time": "  8:30AM",
+          "people": " - "
+        },
+        {
+          "name": "Muhurtham",
+          "time": "  9:30AM",
+          "people": " - "
+        }
+      ]
     }
   ]
 }

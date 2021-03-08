@@ -41,7 +41,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-s3`,
       options: {
-        bucketName: "weranmad-wedding",
+        bucketName: "wedding.weranmad.com",
         region: "eu-central-1"
       }
     }
