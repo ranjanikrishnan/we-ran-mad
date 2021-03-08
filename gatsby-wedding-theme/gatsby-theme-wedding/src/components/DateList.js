@@ -56,6 +56,11 @@ const QUERY = graphql`
           google
           outlook
         }
+        description {
+          name
+          time
+          people
+        }
       }
     }
   }
@@ -76,6 +81,11 @@ function DateList() {
           <List>
             <ListItem key={event.occasion.name}>
               <span>{event.occasion.name} </span>
+              <p>
+                {event.description.name}
+                {event.description.people}
+                {event.description.time}
+              </p>
               <p>
                 <StyledIcon icon={faMapMarkerAlt} />
                 <strong> {event.occasion.place.name}</strong>

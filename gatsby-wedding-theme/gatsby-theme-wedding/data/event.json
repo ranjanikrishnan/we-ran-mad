@@ -1,16 +1,16 @@
 {
   "profiles": [
     {
-      "name": "Kutti",
-      "description": "I live my whole life setting up situations that will eventually lead to the phrase, “And then laughter and hilarity ensued…” Hoping this one will work out too.",
+      "name": "Ranjani",
+      "description": "write something...",
       "links": {
         "instagram": "https://instagram.com/ranjani_kris/",
-        "facebook": "https://www.facebook.com/samantha"
+        "facebook": "https://www.facebook.com/nathaniel"
       }
     },
     {
-      "name": "Kuttan",
-      "description": "According to my 9th grade report card I’m a “hard working conscientious student” who is also “easily distracted in class”. What can I say? I do my homework but I also tend to daydream. Pretty much sums up who I still am today.",
+      "name": "Madhav",
+      "description": "write something...",
       "links": {
         "instagram": "https://instagram.com/underdog_.musician",
         "facebook": "https://www.facebook.com/nathaniel"
@@ -19,33 +19,43 @@
   ],
   "events": [
     {
-      "title": "26-December-2020",
+      "title": "16-May-2021",
       "occasion": {
-        "name": "Lunch & Celebrations",
+        "name": "Mehendi and Sangeet",
         "place": {
-          "name": "Casa Garden, Sacremento",
-          "map": "https://maps.google.com/maps?q=Casa%20Garden%20%7C%20Restaurant%20%26%20Event%20Venue&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          "name": "Vinayaka Mandapam, Kochi, Kerala",
+          "map": "https://maps.google.com/maps?q=Vinayaka%20Mandapam&t=&z=13&ie=UTF8&iwloc=&output=embed"
         },
-        "time": "12:30PM"
+        "time": "5:30PM"
       },
       "calendar": {
-        "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20191110T133519Z%2F20191110T133519Z&details=&location=Casa%20Garden%2C%20Sacremento&text=Nathaniel%20%26%20Samantha%20Wedding&trp=false",
+        "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210517T073019Z/20210517T083019Z&details=&location=Vinayaka%20Mandapam%2C%20Kochi&text=Madhav%20%26%20Ranjani%20Wedding&trp=false",
         "outlook": "https://outlook.live.com/owa/?body=&enddt=20191110T133519&location=Casa%20Garden%2C%20Sacremento&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=20191110T133519&subject=Nathaniel%20%26%20Samantha%20Wedding"
+      },
+      "description": {
+        "name": "Music Performance by  ",
+        "time": "    - 5:30PM",
+        "people": "White Phoenix Band"
       }
     },
     {
-      "title": "31-December-2019",
+      "title": "17-May-2021",
       "occasion": {
-        "name": "Reception",
+        "name": "Wedding",
         "place": {
-          "name": "Padua Hills Theatre",
-          "map": "https://maps.google.com/maps?q=Padua%20Hills%20Theatre&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          "name": "Vinayaka Mandapam, Kochi, Kerala",
+          "map": "https://maps.google.com/maps?q=Vinayaka%20Mandapam&t=&z=13&ie=UTF8&iwloc=&output=embed"
         },
-        "time": "06:30PM - 09:30PM"
+        "time": "09:30AM"
       },
       "calendar": {
-        "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20191110T133519Z%2F20191110T133519Z&details=&location=Casa%20Garden%2C%20Sacremento&text=Nathaniel%20%26%20Samantha%20Wedding&trp=false",
+        "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210517T073019Z/20210517T083019Z&details=&location=Vinayaka%20Mandapam%2C%20Kochi&text=Madhav%20%26%20Ranjani%20Wedding&trp=false",
         "outlook": "https://outlook.live.com/owa/?body=&enddt=20191110T133519&location=Casa%20Garden%2C%20Sacremento&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=20191110T133519&subject=Nathaniel%20%26%20Samantha%20Wedding"
+      },
+      "description": {
+        "name": "Kaasi yathrai",
+        "time": "7:30AM",
+        "people": "blah"
       }
     }
   ]

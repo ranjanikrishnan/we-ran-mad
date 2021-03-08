@@ -29,11 +29,17 @@ gatsby develop
 
 ## TODO:
 
-- [ ] Deployment to S3
-- [ ] Make deployment to S3 easy
-    - one idea would be to use a gatsby plugin
+- [x] Deployment to S3
+- [x] Make deployment to S3 easy
+  - one idea would be to use a gatsby plugin
 - [ ] Buy domain name => pick one of the AWS account
 - [ ] RSVP feature?
-    - Email feature required?
-    - Where to store the data?
-    - Design contact form
+  - Email feature required?
+  - Where to store the data?
+  - Design contact form
+- [ ] Add youtube link to calender description
+- [ ] Maps simplify
+  - remove review (?)
+  - combine to one map
+- [ ] description of events (when and where)
+- [ ] change fb links
