@@ -31,12 +31,17 @@ const Heading = styled.h2`
   font-weight: 400;
 `;
 
-const MapContainer = styled.div``;
+const MapContainer = styled.div`
+  padding: 1rem 2rem;
+  border-color: grey;
+  border-top-style: inset;
+  z-index: +1;
+`;
 
 const GoogleMap = styled.iframe`
-  border: 0;
+  border: 1;
   width: 100%;
-  height: 50%;
+  height: 250px;
 `;
 
 const QUERY = graphql`
@@ -58,24 +63,21 @@ function Map() {
     event: { events }
   } = useStaticQuery(QUERY);
   return (
+    <div>
+    <MapContainer>
+    <GoogleMap
+      src={events[0].occasion.place.map}
+      frameBorder="0"
+      allowfullscreen=""
+    ></GoogleMap>
+    </MapContainer>
     <Container>
-      <MapContainer>
-        <GoogleMap
-          src={events[0].occasion.place.map}
-          frameBorder="0"
-          allowfullscreen=""
-        ></GoogleMap>
-        <GoogleMap
-          src={events[1].occasion.place.map}
-          frameBorder="0"
-          allowfullscreen=""
-        ></GoogleMap>
-      </MapContainer>
       <TextContainer>
         <Heading {...animationParams}>When & Where</Heading>
         <DateList />
       </TextContainer>
     </Container>
+    </div>
   );
 }
 

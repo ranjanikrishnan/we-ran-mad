@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import logoImg from "../images/icon.png";
+// import logoImg from "../images/icon.png";
 
 const StyledFooter = styled.footer`
   height: ${props => props.theme.footer.height};
@@ -24,7 +24,7 @@ function Footer() {
   return (
     <StyledFooter>
       <Content>
-        <img src={logoImg} alt="" />
+        {/* <img src={logoImg} alt="" /> */}
       </Content>
     </StyledFooter>
   );

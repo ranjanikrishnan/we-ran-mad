@@ -9,8 +9,13 @@ import {
 import AddToCalendar from "./AddToCalendar";
 import { graphql, useStaticQuery } from "gatsby";
 
+const OuterContainer = styled.div`
+  display: inline-block;
+`;
+
 const Container = styled.div`
   margin-bottom: 5rem;
+  float: left;
 
   &:last-child {
     margin-bottom: 0;
@@ -72,6 +77,7 @@ function DateList() {
   } = useStaticQuery(QUERY);
 
   return (
+    <OuterContainer>
     <Fragment>
       {events.map(event => (
         <Container key={event.title}>
@@ -106,6 +112,7 @@ function DateList() {
         </Container>
       ))}
     </Fragment>
+    </OuterContainer>
   );
 }
 
