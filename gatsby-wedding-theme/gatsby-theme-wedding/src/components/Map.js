@@ -34,7 +34,7 @@ const Heading = styled.h2`
 const MapContainer = styled.div`
   padding: 1rem 2rem;
   border-color: grey;
-  border-top-style: inset;
+  
   z-index: +1;
 `;
 
@@ -64,6 +64,12 @@ function Map() {
   } = useStaticQuery(QUERY);
   return (
     <div>
+    <Container>
+      <TextContainer>
+        <Heading {...animationParams}>When & Where</Heading>
+        <DateList />
+      </TextContainer>
+    </Container>
     <MapContainer>
     <GoogleMap
       src={events[0].occasion.place.map}
@@ -71,12 +77,6 @@ function Map() {
       allowfullscreen=""
     ></GoogleMap>
     </MapContainer>
-    <Container>
-      <TextContainer>
-        <Heading {...animationParams}>When & Where</Heading>
-        <DateList />
-      </TextContainer>
-    </Container>
     </div>
   );
 }
