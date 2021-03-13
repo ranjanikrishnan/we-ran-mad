@@ -51,13 +51,13 @@ const Container = styled.section`
   padding: 6rem 2rem;
 `;
 
-const TitleContainer = styled.header`
+export const TitleContainer = styled.header`
   display: flex;
   align-items: center;
   flex-direction: column;
 `;
 
-const Title = styled.h2`
+export const Title = styled.h2`
   font-weight: 400;
   font-size: 3.5rem;
   margin-top: 1rem;

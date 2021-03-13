@@ -39,7 +39,7 @@ npm run build && npm run deploy
 - [x] Make deployment to S3 easy
   - one idea would be to use a gatsby plugin
 - [x] Buy domain name => pick one of the AWS account
-- [ ] RSVP feature?
+- [x] RSVP feature?
   - Email feature required?
   - Where to store the data?
   - Design contact form
