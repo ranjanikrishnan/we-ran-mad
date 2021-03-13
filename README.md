@@ -30,7 +30,7 @@ gatsby develop
 To deploy any changes to the project in aws
 
 ```
-
+npm run build && npm run deploy
 ```
 
 ## TODO:
@@ -44,9 +44,13 @@ To deploy any changes to the project in aws
   - Where to store the data?
   - Design contact form
 - [ ] Add youtube link to calender description
-- [ ] Maps simplify
+- [x] Maps simplify
   - remove review (?)
   - combine to one map
 - [ ] description of events (when and where)
-- [ ] change fb links
-- [ ] secure the website - https
+  - add links to describe events?
+- [ ] change fb, outlook links
+- [x] secure the website - https
+- [ ] change welcome page - index.js
+- [x] carousel of images-timeline?
+- [ ] change images in carousel, img in save the date
