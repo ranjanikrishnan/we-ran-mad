@@ -81,7 +81,7 @@ function CoverText() {
       </Heading>
       <Text as="p">Join us on</Text>
       <ImpText as="p" {...animationParams} data-sal-delay="100">
-        {event.events[0].title}
+        {event.events[1].title}
       </ImpText>
       <Text as="p">at</Text>
       <ImpText as="p" {...animationParams}>

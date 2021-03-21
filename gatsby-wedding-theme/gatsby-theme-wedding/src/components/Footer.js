@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import logoImg from "../images/icon.png";
+import logoImg from "../images/icon_1.jpg";
 
 const StyledFooter = styled.footer`
   height: ${props => props.theme.footer.height};

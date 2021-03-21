@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import PropTypes from "prop-types";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faInstagram, faFacebook } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 import SocialMediaLink from "./SocialMediaLink";
 import media from "./media";
@@ -52,9 +52,6 @@ function ProfileCard({ image, name, description, links }) {
         <SocialMediaLink link={links.instagram}>
           <FontAwesomeIcon icon={faInstagram} />
         </SocialMediaLink>
-        <SocialMediaLink link={links.facebook}>
-          <FontAwesomeIcon icon={faFacebook} />
-        </SocialMediaLink>
       </div>
     </Container>
   );
@@ -64,8 +61,7 @@ ProfileCard.propTypes = {
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
   links: PropTypes.shape({
-    instagram: PropTypes.string,
-    facebook: PropTypes.string
+    instagram: PropTypes.string
   }).isRequired
 };
 

@@ -27,13 +27,35 @@ To run the project in development mode
 gatsby develop
 ```
 
+To deploy any changes to the project in aws
+
+```
+npm run build && npm run deploy
+```
+
 ## TODO:
 
-- [ ] Deployment to S3
-- [ ] Make deployment to S3 easy
-    - one idea would be to use a gatsby plugin
-- [ ] Buy domain name => pick one of the AWS account
-- [ ] RSVP feature?
-    - Email feature required?
-    - Where to store the data?
-    - Design contact form
+- [x] Deployment to S3
+- [x] Make deployment to S3 easy
+  - one idea would be to use a gatsby plugin
+- [x] Buy domain name => pick one of the AWS account
+- [x] RSVP feature?
+  - Email feature required?
+  - Where to store the data?
+  - Design contact form
+- [x] Add youtube link to calender description
+- [x] Maps simplify
+  - remove review (?)
+  - combine to one map
+- [ ] description of events (when and where)
+  - add links to describe events?
+- [x] change fb, outlook links
+- [x] secure the website - https
+- [x] change welcome page - index.js
+- [x] carousel of images-timeline?
+- [x] change images in carousel, img in save the date
+- [x] About us details?
+- [x] add footer - weranmad hashtag?
+- [x] add youtube link to calender
+- [x] rsvp responsiveness
+- [ ] show tooltips for events decsription?
