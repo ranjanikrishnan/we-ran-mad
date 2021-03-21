@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Title, TitleContainer } from './Profile';
+import { Title, TitleContainer } from "./Profile";
 
 const Container = styled.div`
   margin-bottom: 5rem;
@@ -15,7 +15,7 @@ const Container = styled.div`
 `;
 
 const Row = styled.div`
-  &:after{
+  &:after {
     content: "";
     display: table;
     clear: both;
@@ -31,7 +31,7 @@ const InputText = styled.input`
   resize: vertical;
 
   @media (max-width: 500px) {
-    width: 100%;
+    width: 70%;
     margin-top: 0;
   }
 `;
@@ -49,13 +49,13 @@ const Button = styled.button`
   border-radius: 4px;
   resize: vertical;
   background-color: #005e53;
+  color: white;
+  font-size: 20px;
 
   @media (max-width: 500px) {
     width: 100%;
     margin-top: 0;
   }
-
-
 
   &:hover {
     background-color: #005e8d;
@@ -67,12 +67,12 @@ const Col25 = styled.div`
   width: 25%;
   margin-top: 6px;
   text-align: left;
-  // padding: 10px; 
+  // padding: 10px;
 
   @media screen and (max-width: 600px) {
     width: 100%;
     margin-top: 0;
-}
+  }
 `;
 
 const Col75 = styled.div`
@@ -81,8 +81,8 @@ const Col75 = styled.div`
   margin-top: 6px;
 
   @media screen and (max-width: 600px) {
-      width: 100%;
-      margin-top: 0;
+    width: 100%;
+    margin-top: 0;
   }
 `;
 
@@ -102,7 +102,6 @@ const RadioLabel = styled.label`
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  
 
   // padding: 12px;
   // border: 1px solid #ccc;
@@ -116,11 +115,10 @@ const RadioLabel = styled.label`
 `;
 
 const TextArea = styled.textarea`
-  height:100px;
+  height: 100px;
   width: 70%;
   // width: 500px;
   padding: 12px;
-
 `;
 
 const RadioContainer = styled.div`
@@ -129,6 +127,11 @@ const RadioContainer = styled.div`
   padding: 12px;
   padding-left: 100px;
 
+  @media screen and (max-width: 600px) {
+    width: 100%;
+    margin-top: 0;
+    padding-left: 0px;
+  }
 `;
 
 function Rsvp() {
@@ -136,9 +139,8 @@ function Rsvp() {
     <>
       <Container>
         <TitleContainer>
-          <Title>
-            Bless us your presense
-          </Title>
+          <Title>R.S.V.P.</Title>
+          {/* <p>Please sign your R.S.V.P or let us know if we can help you with anything</p> */}
         </TitleContainer>
         <form
           action="https://getform.io/f/cf23c1b8-470d-4ee4-b746-da7cbcccd4fe"
@@ -146,7 +148,7 @@ function Rsvp() {
         >
           <Row>
             <Col25>
-              <Label for="fname">Full name</Label>          
+              <Label for="fname">Full name</Label>
             </Col25>
             <Col75>
               <InputText type="text" name="name" />
@@ -154,7 +156,7 @@ function Rsvp() {
           </Row>
           <Row>
             <Col25>
-              <Label for="fname">Number of Guests</Label>          
+              <Label for="fname">Number of Guests</Label>
             </Col25>
             <Col75>
               <InputText type="text" name="count" />
@@ -162,36 +164,41 @@ function Rsvp() {
           </Row>
           <Row>
             <Col25>
-              <Label for="fname">Attendance</Label>          
+              <Label for="fname">Will you be attending our wedding?</Label>
             </Col25>
             <Col75>
               <RadioContainer>
                 <table>
                   <tr>
-                    <th style={ {padding: '10px' } }>
+                    <th style={{ padding: "10px" }}>
                       <RadioLabel>
-                        <input type="radio" checked="checked" name="attendance" value="yes" />
+                        <input
+                          type="radio"
+                          checked="checked"
+                          name="attendance"
+                          value="yes"
+                        />
                         <span class="checkmark"></span>
-                        Yes - I will be there! :)
+                        Yes, I will be there😊
                       </RadioLabel>
                     </th>
                   </tr>
                   <tr>
-                    <th style={ {padding: '10px' } }>
+                    <th style={{ padding: "10px" }}>
                       <RadioLabel>
                         <input type="radio" name="attendance" value="virtual" />
                         <span class="checkmark"></span>
-                        I'll attend virtually :)
+                        I'll attend virtually😉
                       </RadioLabel>
                     </th>
                   </tr>
                   <tr>
-                    <th style={ {padding: '10px' } }>
-                    <RadioLabel>
-                      <input type="radio" name="attendance" value="no" />
-                      <span class="checkmark"></span>
-                      Sorry - I can't make it :(
-                    </RadioLabel>
+                    <th style={{ padding: "10px" }}>
+                      <RadioLabel>
+                        <input type="radio" name="attendance" value="no" />
+                        <span class="checkmark"></span>
+                        Sorry, can't make it😞
+                      </RadioLabel>
                     </th>
                   </tr>
                 </table>
@@ -200,7 +207,7 @@ function Rsvp() {
           </Row>
           <Row>
             <Col25>
-              <Label for="fname">Tell us more</Label>          
+              <Label for="fname">Any message for us?</Label>
             </Col25>
             <Col75>
               <TextArea name="message"></TextArea>
@@ -208,7 +215,7 @@ function Rsvp() {
           </Row>
           <Row>
             <Col25>
-              <Label for="fname"></Label>          
+              <Label for="fname"></Label>
             </Col25>
             <Col75>
               <Button type="submit">Send</Button>

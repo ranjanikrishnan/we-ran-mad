@@ -8,6 +8,7 @@ import Map from "../components/Map";
 import CountdownSection from "../components/CountdownSection";
 import Profile from "../components/Profile";
 import Rsvp from "../components/Rsvp";
+import Video from "../components/Video";
 
 const Landing = () => {
   useEffect(() => {
@@ -20,8 +21,12 @@ const Landing = () => {
         <Cover />
         <Profile />
         <CountdownSection />
-        <Rsvp />
         <Map />
+        <Video
+          videoSrcURL="https://www.youtube.com/embed/wpiNbM28Dzc"
+          videoTitle="Maddy-Ranj Wedding"
+        />
+        <Rsvp />
       </Layout>
     </Fragment>
   );

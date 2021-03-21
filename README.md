@@ -43,14 +43,19 @@ npm run build && npm run deploy
   - Email feature required?
   - Where to store the data?
   - Design contact form
-- [ ] Add youtube link to calender description
+- [x] Add youtube link to calender description
 - [x] Maps simplify
   - remove review (?)
   - combine to one map
 - [ ] description of events (when and where)
   - add links to describe events?
-- [ ] change fb, outlook links
+- [x] change fb, outlook links
 - [x] secure the website - https
-- [ ] change welcome page - index.js
+- [x] change welcome page - index.js
 - [x] carousel of images-timeline?
-- [ ] change images in carousel, img in save the date
+- [x] change images in carousel, img in save the date
+- [x] About us details?
+- [x] add footer - weranmad hashtag?
+- [x] add youtube link to calender
+- [x] rsvp responsiveness
+- [ ] show tooltips for events decsription?

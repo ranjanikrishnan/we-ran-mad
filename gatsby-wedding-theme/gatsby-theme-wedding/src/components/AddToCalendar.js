@@ -6,6 +6,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 10px;
 `;
 
 const Link = styled.a`
@@ -20,30 +21,19 @@ const Link = styled.a`
   }
 `;
 
-function AddToCalendar({ google, outlook }) {
+function AddToCalendar({ google }) {
   return (
     <Container>
       <p>Add to your Calendar:</p>
       <Link target="_blank" rel="noopener noreferrer" href={google}>
         Google
       </Link>
-      <Link
-        target="_blank"
-        rel="noopener noreferrer"
-        href={outlook}
-        css={`
-          margin-left: 0;
-        `}
-      >
-        Outlook
-      </Link>
     </Container>
   );
 }
 
 AddToCalendar.propTypes = {
-  google: PropTypes.string.isRequired,
-  outlook: PropTypes.string.isRequired
+  google: PropTypes.string.isRequired
 };
 
 export default AddToCalendar;
