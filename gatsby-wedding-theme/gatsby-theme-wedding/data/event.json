@@ -2,7 +2,7 @@
   "profiles": [
     {
       "name": "Ranjani",
-      "description": "Loves to travel, enjoys a wee bit of singing in the weekends. Born in Chennai, raised in Kochi.",
+      "description": "Loves to travel, enjoys a bit of singing in the weekends. Born in Chennai, raised in Kochi.",
       "links": {
         "instagram": "https://instagram.com/ranjani_kris/"
       }
@@ -18,35 +18,14 @@
   ],
   "events": [
     {
-      "title": "16-May-2021",
-      "occasion": {
-        "name": "Mehendi and Sangeet",
-        "place": {
-          "name": "Vinayaka Mandapam, Kochi, Kerala",
-          "map": "https://maps.google.com/maps?q=Vinayaka%20Mandapam&t=&z=13&ie=UTF8&iwloc=&output=embed"
-        },
-        "time": "5:30PM"
-      },
-      "calendar": {
-        "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210516T153019Z/20210516T193019Z&details=&location&location=Vinayaka%20Mandapam%2C%20Kochi&text=Madhav%20%26%20Ranjani%20Mehendi%2FSangeet&trp=false"
-      },
-      "description": [
-        {
-          "name": "Music by",
-          "time": "   - 5:30PM",
-          "people": "White Phoenix Band"
-        }
-      ]
-    },
-    {
-      "title": "17-May-2021",
+      "title": "9-May-2021",
       "occasion": {
         "name": "Wedding",
         "place": {
           "name": "Vinayaka Mandapam, Kochi, Kerala",
           "map": "https://maps.google.com/maps?q=Vinayaka%20Mandapam&t=&z=13&ie=UTF8&iwloc=&output=embed"
         },
-        "time": "09:30AM"
+        "time": "10:30AM"
       },
       "calendar": {
         "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210517T073019Z/20210517T083019Z&details=Watch+us+here:+https://youtu.be/wpiNbM28Dzc&location=Vinayaka%20Mandapam%2C%20Kochi&text=Madhav%20%26%20Ranjani%20Wedding&trp=false"
@@ -55,19 +34,19 @@
         {
           "name": "Kaasi yathrai",
           "tooltip": "In this ritual, the groom pretends that he does not want to marry, and is going away a holy pilgrimage to Kashi. He is given a walking stick and a few bare essentials like an umbrella, slippers etc. for his journey. At this time, the bride’s father stops him and tries to persuade him towards married life, and offers to have his daughter married to him. The groom then agrees and is taken to the mandap.",
-          "time": "  7:30AM",
+          "time": "  9:30AM",
           "people": " - "
         },
         {
           "name": "Maalai matral, oonjal",
           "tooltip": "The bride and the groom exchange flower garlands three times to begin their holy union. In this ritual, married ladies of the family offer some milk and banana to the bride and groom while they are seated on a swing. Rice balls are thrown around them as a symbol to ward off evil.  ",
-          "time": "  8:00AM",
+          "time": "  10:00AM",
           "people": " - "
         },
         {
           "name": "Muhurtham",
           "tooltip": "One heartwarming ritual is when the bride sits on her father lap when the father is giving away his daughter. This ritual symbolises a father is giving his baby daughter who played in his lap, and seeking the groom's promise that he will always take care of her. The groom applies sindoor on the bride’s hair parting and ties a mangalsutra around her neck. ",
-          "time": "  9:30AM",
+          "time": "  10:30AM",
           "people": " - "
         }
       ]

@@ -34,7 +34,7 @@ const Video = ({ videoSrcURL, videoTitle, ...props }) => (
   <Container>
     <TitleContainer>
       <Title style={{ paddingBottom: "30px" }}>
-        Join us virtually on the 17th! :)
+        Join us virtually on the 9th! :)
       </Title>
     </TitleContainer>
     <VideoContainer>

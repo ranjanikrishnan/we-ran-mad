@@ -314,7 +314,7 @@ function Profile() {
         <LineBreak />
         <AbousUsLine>With coffee and cake on our first date,</AbousUsLine>
         <LineBreak />
-        <AbousUsLine>To meet often we quite did't hesitate,</AbousUsLine>
+        <AbousUsLine>To meet often we quite didn't hesitate,</AbousUsLine>
         <LineBreak />
         <AbousUsLine>
           {" "}

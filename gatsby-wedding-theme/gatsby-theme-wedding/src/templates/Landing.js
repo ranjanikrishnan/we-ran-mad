@@ -23,7 +23,7 @@ const Landing = () => {
         <CountdownSection />
         <Map />
         <Video
-          videoSrcURL="https://www.youtube.com/embed/wpiNbM28Dzc"
+          videoSrcURL="https://www.youtube.com/embed/wMEIDr2qK1E"
           videoTitle="Maddy-Ranj Wedding"
         />
         <Rsvp />
