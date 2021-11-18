@@ -1,6 +1,6 @@
-## Kitty and Kuttan website
+## Ranj and Maddy website
 
-Welcome to the codebase of Kitty & Kuttan
+Welcome to the codebase of Ranj & Maddy
 
 ## Setup
 
